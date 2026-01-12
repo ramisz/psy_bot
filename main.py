@@ -8,7 +8,7 @@ import streamlit as st
 
 
 def main():
-    st.title("Ассистент по самоанализу и рефлексии")
+    st.title("Ассистент психологической консультации")
 
     #================ INITIALIZING =========================
     user_name = st.sidebar.text_input("Имя пользователя", value="пользователь")
@@ -93,4 +93,5 @@ def main():
             st.markdown(response)
 
 if __name__ == "__main__":
+
      main()
